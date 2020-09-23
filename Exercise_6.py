@@ -33,4 +33,4 @@ def PatternUnlock(N, hits):
 							y_prev = y
 							break
 	res = str(int(round(result, 5) * 100000))
-	return(res)
+	return(res.replace("0", ""))
